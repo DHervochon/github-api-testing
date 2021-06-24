@@ -1,20 +1,11 @@
-sdf
-sdfsdf
-sdf
-sdf
-sd
-fsdf
-sdf
-## Hopefully this will be on a new chunk!
-sdf
-sdf
-sdfsdf
-sdf
-sdf
-sd
-fsdf
-sdf
-## Hopefully this will be on a new chunk!
+These are some cool changes, huh?
+
+One day this will have keyword highlighting, 
+but I think thats way out of scope for a one week thing 🙂
+Lorum Ipsum
+Lorum Ipsum
+Lorum Ipsum
+Lorum Ipsum
 sdf
 sdf
 sdfsdf
