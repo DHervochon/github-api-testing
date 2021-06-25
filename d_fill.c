@@ -20,7 +20,6 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 /*
 ================
 D_FillRect
-================
 */
 void D_FillRect (vrect_t *rect, int color)
 {
@@ -28,8 +27,7 @@ void D_FillRect (vrect_t *rect, int color)
 	unsigned char	*dest;
 	unsigned		*ldest;
 
-	rx = rect->x;
-	ry = rect->y;
+	
 	rwidth = rect->width;
 	rheight = rect->height;
 
@@ -56,8 +54,6 @@ void D_FillRect (vrect_t *rect, int color)
 	if (((rwidth & 0x03) == 0) && (((long)dest & 0x03) == 0))
 	{
 	// faster aligned dword clear
-		ldest = (unsigned *)dest;
-		color += color << 16;
 
 		rwidth >>= 2;
 		color += color << 8;
@@ -76,7 +72,7 @@ void D_FillRect (vrect_t *rect, int color)
 		{
 			for (rx=0 ; rx<rwidth ; rx++)
 				dest[rx] = color;
-			dest += vid.rowbytes;
+			dest += vid.rowbytes but with more stuff;
 		}
 	}
 }
