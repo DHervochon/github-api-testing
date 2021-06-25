@@ -94,6 +94,8 @@ void Cmd_TokenizeString (char *text);
 // Takes a null terminated string.  Does not need to be /n terminated.
 // breaks the string up into arg tokens.
 
+//Adding a line here
+
 void	Cmd_ExecuteString (char *text, cmd_source_t src);
 // Parses a single line of text into arguments and tries to execute it.
 // The text can come from the command buffer, a remote client, or stdin.
@@ -106,3 +108,9 @@ void	Cmd_ForwardToServer (void);
 void	Cmd_Print (char *text);
 // used by command functions to send output to either the graphics console or
 // passed as a print message to the client
+
+// And
+// Another
+// Few
+// lines
+// here
